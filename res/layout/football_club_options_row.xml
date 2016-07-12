@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+	<ImageView android:layout_width="wrap_content"
+		android:layout_toLeftOf="@+id/team_name" android:layout_height="wrap_content"
+		android:id="@+id/image_football_row" android:layout_marginRight="5dp"
+		android:padding="5dp"></ImageView>
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/layout_club_details" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_toRightOf="@+id/image_football_row">
+
+		<TextView android:layout_height="wrap_content"
+			android:textStyle="bold" android:textSize="16px" android:id="@+id/text_row_title"
+			android:text="Phone Club" android:layout_width="wrap_content"
+			android:textColor="@color/black" android:layout_marginLeft="10dp"></TextView>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="12px"
+			android:id="@+id/text_row_sub" android:text="number"
+			android:textColor="@color/black" android:layout_marginLeft="10dp"></TextView>
+	</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:background="@null">
+
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:textColor="@color/black"
+		android:textStyle="bold" android:textSize="15px" android:id="@+id/telephone_description"
+		android:text="Ticket Office" android:layout_margin="5dp"></TextView>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:textColor="@color/black"
+		android:textSize="13px" android:id="@+id/telephone_number"
+		android:text="(0116) 27154145" android:layout_marginLeft="5dp"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_refresh">Refresh</string>
+    <string name="button_view_all_on_map">View all on map</string>
+    <string name="text_parking_rating">Parking</string>
+    <string name="accessability_rating">Accessability</string>
+    <string name="text_food_rating">Food</string>
+    <string name="text_overall_rating">Overall:</string>
+    <string name="text_staduim_title">Stadium: </string>
+    <string name="button_all_teams">All Teams</string>
+    <string name="button_visit_offical_website">Visit Offical Website</string>
+    <string name="text_offical_website">Official Website:</string>
+    <string name="text_stadium_capacity">Capacity:</string>
+    <string name="text_stadium_name">Stadium Name:</string>
+    <string name="text_stadium_address">Address:</string>
+    <string name="text_stadium_details">Stadium Details</string>
+    <string name="button_football_away_game">Plan an away game!</string>
+    <string name="app_name">The Ultimate Stadium Guide</string>
+    <string name="button_all_ratings">All Comments/Ratings</string>
+    <string name="button_give_ratings">Give Comment/Rating</string>
+    <string name="general_info_title">General Information</string>
+    <string name="seating_info_title">Seating Information</string>
+    <string name="opening_info_title">Opening Information</string>
+    <string name="restriction_info_title">Stadium Restrictions</string>
+    <string name="babies_and_children_info_title">Babies/Children Information</string>
+    <string name="cash_machines_info_title">Cash Machine Information</string>
+    <string name="lost_property_info_title">Lost Property Information</string>
+    <string name="no_information_text">No Information Available</string>
+    <string name="no_history_text">No Information Available</string>
+    <string name="history_title">Stadium History</string>
+    <string name="directions_method_title">How are you getting there?</string>
+    <string name="stadium_build_date">Date Built:</string>
+    <string name="stadium_first_game_date">First Game:</string>
+    <string name="stadium_other_history_date">Other:</string>
+    <string name="about">About</string>
+    <string name="contact_developer">Contact</string>
+    <string name="developer_website">Developer Website</string>
+    <string name="developer_website_url">http://www.thetekblog.com</string>
+    <string name="developer_email">stadiumguide@thetekblog.com</string>
+    <string name="contact_us_venue">Tell us about a venue</string>
+    <string name="developed_by">Developed By TEK</string>
+    <string name="close">Close</string>
+</resources>

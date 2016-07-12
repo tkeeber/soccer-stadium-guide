@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/footballer_silhouette_1">
+
+	<View
+		android:id="@+id/seperator1" 
+		android:layout_width="fill_parent" android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" android:layout_marginTop="5px"
+		android:layout_height="2px" android:background="@color/black"/>
+
+	<TextView 	
+		android:id="@+id/text_away_team_title" 
+		android:layout_width="fill_parent" android:text="The Away Team"
+		android:layout_height="wrap_content" android:textColor="@color/black"
+		android:gravity="center_horizontal" android:textSize="18dp" android:textStyle="bold"
+		android:paddingTop="5dp" android:paddingBottom="5dp" 
+		android:layout_below="@id/seperator1"/>
+		
+	<View
+		android:id="@+id/seperator2" 
+		android:layout_width="fill_parent" android:layout_marginLeft="5px"
+		android:layout_marginRight="5px"
+		android:layout_height="2px" android:background="@color/black"
+		android:layout_below="@id/text_away_team_title"/>
+		
+	<!--  <TextView android:id="@+id/text_away_team_title"
+		android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+		android:textColor="@color/black" 
+		android:textStyle="bold" 
+		android:text="THE AWAY TEAM" android:textSize="18dp" 
+		android:paddingLeft="5dp"/>
+	-->
+	<TextView android:id="@+id/subtitle_select_league" android:typeface="sans"
+		android:layout_height="wrap_content" android:text="SELECT A LEAGUE"
+		android:layout_width="fill_parent" android:paddingTop="5px"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+		android:textStyle="bold" android:layout_below="@id/seperator2"
+		android:textColor="@color/black"/>
+
+	<ListView android:id="@+id/android:list" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="10dp"
+		android:layout_below="@+id/subtitle_select_league"
+		
+		android:cacheColorHint="#00000000" />
+
+	<TextView android:id="@+id/android:empty"
+		android:layout_height="wrap_content"
+		android:text="No football clubs found!" 
+		android:layout_width="fill_parent" android:gravity="center"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<LinearLayout android:id="@+id/layout_club_details_parent"
+		android:layout_height="wrap_content" android:background="@color/white"
+		android:layout_width="fill_parent" android:orientation="vertical">
+
+		<RelativeLayout android:layout_height="wrap_content"
+			android:id="@+id/layout_club_title"
+			android:layout_width="fill_parent"		
+			android:padding="5dp" android:background="@null">
+
+			<!--  <ImageView android:layout_width="wrap_content" android:id="@+id/image_club_kit"
+				android:layout_height="wrap_content"
+				android:src="@drawable/leicestercityfc" />
+ 			-->
+			<TextView
+				android:layout_height="wrap_content" android:id="@+id/text_club_name"
+				android:layout_width="fill_parent" android:text="Leicester City Football Club"
+				android:textStyle="bold" android:textColor="@color/black"
+				android:textSize="18px" android:gravity="center_horizontal" />
+
+			<View android:layout_below="@+id/text_club_name" 
+				android:id="@+id/club_namee_sep"
+				android:layout_height="2dp" android:background="@color/black"
+				android:paddingLeft="5dp" android:paddingRight="5dp"
+				android:layout_width="wrap_content" />
+
+			<TextView	
+				android:layout_below="@id/club_namee_sep" 
+				android:layout_height="wrap_content"
+				android:id="@+id/text_stadium_name" 
+				android:text="The Walkers Stadium" android:textColor="@color/black"
+				android:textSize="14px" android:layout_width="fill_parent" />
+	
+			<TextView
+				android:layout_below="@id/text_stadium_name"
+				android:layout_height="wrap_content"
+				android:id="@+id/text_stadium_capacity" 
+				android:text="20,000 (all seater)" android:textColor="@color/black"
+				android:textSize="14px" android:layout_width="fill_parent" />
+							
+			<TextView 
+				android:layout_height="wrap_content"
+				android:id="@+id/text_stadium_address" android:layout_below="@id/text_stadium_capacity"
+				android:text="This is the address of the stadium is quite long isn't it>?" android:textColor="@color/black"
+				android:textSize="14px" android:layout_width="fill_parent" />			
+		
+			<View android:layout_below="@+id/text_stadium_address" 
+				android:id="@+id/club_namee_sep_2"
+				android:layout_height="2dp" android:background="@color/black"
+				android:paddingLeft="5dp" android:paddingRight="5dp"
+				android:layout_width="wrap_content" />
+		
+		</RelativeLayout>
+ 
+	</LinearLayout>
+	
+	
+	<ListView android:id="@+id/android:list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@drawable/footballer_silhouette_3"
+		android:layout_below="@+id/layout_club_details_parent" android:cacheColorHint="#00000000"/>
+	<TextView android:id="@+id/android:empty"
+		android:layout_width="wrap_content" android:background="@drawable/footballer_silhouette_3"
+		android:layout_below="@+id/layout_club_details_parent"  android:layout_height="wrap_content" android:text="No football clubs found!" />
+
+	
+</RelativeLayout>

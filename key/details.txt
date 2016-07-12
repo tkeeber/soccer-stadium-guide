@@ -1,0 +1,13 @@
+password: monkeybrains4tea
+
+------------------------------------------------
+
+Map key
+
+Your key is:
+
+01Oex6m0-N4lUaZIyU2nga8g_gOC9lV5dnlBGpA
+
+This key will work for all apps signed with your certificate whose fingerprint is:
+
+20:7E:DE:E0:AC:56:3D:0D:F8:1C:80:9F:8A:FC:93:E4

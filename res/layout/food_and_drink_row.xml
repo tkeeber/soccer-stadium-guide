@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+	<TextView android:layout_width="wrap_content" android:textColor="@color/black"
+		android:layout_height="wrap_content" android:id="@+id/text_venue_name"
+		android:textSize="14dp" android:background="@null" android:text="The dog and hound"
+		android:textStyle="bold" android:padding="5dp"></TextView>
+	
+	<TextView android:layout_toRightOf="@+id/text_venue_name" android:textColor="@color/black"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textSize="12dp" android:text="1.2 miles from stadium"
+		android:padding="5dp" android:id="@+id/text_distance_from_stadium"></TextView>
+
+	<TextView android:layout_below="@+id/text_venue_name" android:textColor="@color/black"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:textSize="12dp" android:text=""
+		android:paddingLeft="5dp" android:id="@+id/text_description"></TextView>
+
+</RelativeLayout>

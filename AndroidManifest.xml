@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tek.apps.android.stadiumguide"
+      android:versionCode="3"
+      android:versionName="22102010-1">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".football.Startup"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".football.AboutActivity" android:label="About"
+ 				  android:theme="@android:style/Theme.Dialog" />
+        
+        <activity android:name=".football.FootballClubList" />
+        <activity android:name=".football.FootballClubOptionsList" />
+        <activity android:name=".football.ParkingList" />
+		<activity android:name=".football.ClubTelephoneNumberList" />
+		<activity android:name=".football.FoodAndDrinkList" />
+		<activity android:name=".football.FoodAndDrinkMap" android:theme="@android:style/Theme.NoTitleBar" />
+		<activity android:name=".football.GeneralInformationActivity" />
+		<activity android:name=".football.DirectionOptionsList"/>
+		<activity android:name=".football.GenericInformationActivity"/>
+		<activity android:name=".football.StadiumHistoryActivity" />
+			
+		<uses-library android:name="com.google.android.maps" />
+							
+    </application>
+    
+    <uses-sdk android:minSdkVersion="3" />
+    
+ <!-- <supports-screens
+		android:anyDensity="true"
+		android:smallScreens="true"
+		android:normalScreens="true"
+		android:largeScreens="true"/>
+	-->
+		<uses-permission android:name="android.permission.CALL_PHONE"/>
+		<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_GPS" />
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+		
+
+</manifest> 

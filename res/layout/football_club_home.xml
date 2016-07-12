@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/txt_team_name"
+		android:textSize="20dp"
+		android:layout_margin="5dp" android:text="Leicester City FC" android:textColor="@color/black"></TextView>
+		
+	<View android:id="@+id/View01" android:layout_width="wrap_content"
+		android:layout_height="3dp" android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp" android:background="@color/black"></View>
+	
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+		
+		<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+				android:textColor="@color/black" android:text="@string/text_stadium_name" android:id="@+id/text_title_stadium_name"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/black" android:layout_marginLeft="10dp" android:id="@+id/text_stadium_name"></TextView>
+
+		</TableRow>
+		
+		<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+				android:textColor="@color/black" android:id="@+id/text_title_stadium_capacity" android:text="@string/text_stadium_capacity"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/black" android:layout_marginLeft="10dp" android:id="@+id/text_stadium_capacity"></TextView>
+
+		</TableRow>
+		
+		<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+				android:id="@+id/text_title_address" android:text="@string/text_stadium_address"
+				android:textColor="@color/black"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/text_stadium_address"
+				android:textColor="@color/black" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:lines="2"></TextView>
+
+		</TableRow>
+		
+	
+
+	</TableLayout>
+
+	<View android:id="@+id/View02" android:layout_width="wrap_content" android:layout_height="3dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:background="@color/black"></View>
+	
+	
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+		
+		<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			
+				<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+				android:id="@+id/text_title_offical_website" android:textColor="@color/black" android:text="@string/text_offical_website"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/text_offical_website"
+				android:textColor="@color/black" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:lines="2"></TextView>
+			
+			
+		</TableRow>
+	</TableLayout>
+	
+<Button android:layout_height="wrap_content" android:id="@+id/button_visit_website" android:text="@string/button_visit_offical_website" android:layout_width="fill_parent" android:gravity="center_horizontal|center"></Button>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TableRow>
+			<ImageButton android:id="@+id/button_football"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+			<ImageButton android:id="@+id/button_cricket"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+		</TableRow>
+		<TableRow>
+			<ImageButton android:id="@+id/button_rugby"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+			<ImageButton android:id="@+id/button_golf"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

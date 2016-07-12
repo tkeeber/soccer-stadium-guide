@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TabWidget android:id="@android:id/tabs"
+		android:layout_width="fill_parent" android:layout_height="65px" />
+
+	<FrameLayout android:id="@android:id/tabcontent"
+		android:layout_width="fill_parent" android:layout_height="200px"
+		android:paddingTop="65px">
+		<LinearLayout android:id="@+id/football_home"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<include android:id="@+id/football_home_include" layout="@layout/football_club_home" />
+			
+			
+		</LinearLayout>
+		<LinearLayout android:id="@+id/football_club_parking"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<include android:id="@+id/football_home_parking_include" layout="@layout/football_club_parking" />
+			
+			
+		</LinearLayout>
+		<LinearLayout android:id="@+id/football_club_pubs"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<include android:id="@+id/football_home_pubs_include" layout="@layout/football_club_pubs" />
+			
+			
+		</LinearLayout>
+	</FrameLayout>
+</TabHost>

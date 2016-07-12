@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@null">
+
+
+	<TextView android:layout_height="wrap_content" android:id="@+id/team_name"
+		android:text="Leicester City FC" android:layout_margin="5dp"
+		android:textStyle="bold" android:textSize="15px" android:textColor="@color/black"
+		android:layout_width="wrap_content" android:padding="4dp"
+		android:background="@null" />
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:gravity="right" android:padding="10dp">
+
+		<ImageView android:id="@+id/ImageView01"
+			android:layout_height="wrap_content" android:src="@drawable/havanah_chevron"
+			android:layout_width="wrap_content"
+			android:layout_gravity="right|center_vertical|fill_horizontal"></ImageView>
+
+	</LinearLayout>
+
+
+</LinearLayout>

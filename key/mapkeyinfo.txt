@@ -1,0 +1,20 @@
+Work machine;
+Your key is:
+01Oex6m0-N4mz54ViIhhzdbto5dw8l4K9Rhm4vw
+This key will work for all apps signed with your certificate whose fingerprint is:
+AD:AA:18:F2:6C:D0:BE:F6:9A:59:A8:E3:5B:81:F5:81
+
+
+For Home:
+Your key is:
+01Oex6m0-N4k61pZFFpNTmpEDNjSBFyzHIIG6nA
+This key will work for all apps signed with your certificate whose fingerprint is:
+84:9A:94:1F:D9:19:78:F6:5F:BA:B6:D4:8A:17:EB:0B
+
+
+For release;
+
+Your key is:
+01Oex6m0-N4lUaZIyU2nga8g_gOC9lV5dnlBGpA
+This key will work for all apps signed with your certificate whose fingerprint is:
+20:7E:DE:E0:AC:56:3D:0D:F8:1C:80:9F:8A:FC:93:E4

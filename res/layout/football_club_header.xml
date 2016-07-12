@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout01" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:background="@null">
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/layout_club_details" android:layout_toRightOf="@+id/image_club"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:padding="5dp" android:background="@null">
+		<TextView android:layout_height="wrap_content" android:id="@+id/text_club_name"
+			android:layout_width="fill_parent" android:text="Leicester City Football Club"
+			android:textStyle="bold" android:textColor="@color/black"
+			android:textSize="16px"></TextView>
+
+		<TextView android:layout_toRightOf="@+id/image_club"
+			android:layout_below="@+id/text_club_name" android:layout_height="wrap_content"
+			android:id="@+id/text_club_league" android:layout_centerInParent="true"
+			android:text="English Championship" android:textColor="@color/black"
+			android:textSize="12px" android:layout_width="fill_parent"></TextView>
+		<View android:id="@+id/View01" android:layout_width="fill_parent"
+			android:layout_height="2dp" android:background="@color/black"></View>
+	</LinearLayout>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_below="@+id/layout_club_details" android:layout_width="wrap_content"
+		android:text="Walkers Stadium"
+		android:id="@+id/text_stadium_name" android:paddingTop="2dp"
+		android:paddingLeft="5dp" android:textColor="@color/black"></TextView>
+
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_below="@+id/layout_club_details" android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/text_stadium_name" android:id="@+id/text_stadium_capacity"
+		android:textColor="@color/black" android:paddingTop="2dp"
+		android:text="(20,000)" android:paddingLeft="2dp"></TextView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textColor="@color/black"
+		android:paddingTop="2dp" android:id="@+id/text_stadium_address"
+		android:text="Filbert Way" android:layout_toRightOf="@+id/text_stadium_address_title"
+		android:paddingBottom="5dp" android:layout_below="@+id/text_stadium_name"
+		android:paddingLeft="5dp"></TextView>
+
+	<View android:layout_below="@+id/text_stadium_address"
+		android:layout_toRightOf="@+id/text_stadium_address_title"
+		android:layout_width="fill_parent" android:layout_height="2dp"
+		android:background="@color/black" android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp" android:id="@+id/seperator_2"></View>
+
+	
+</RelativeLayout>
+

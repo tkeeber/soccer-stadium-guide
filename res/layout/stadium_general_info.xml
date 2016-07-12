@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/footballer_silhouette_2">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="@drawable/footballer_silhouette_2"
+		android:orientation="vertical">
+
+		<!-- General information -->
+		<TextView android:id="@+id/general_info_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/general_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/general_info_title_sep"
+			android:layout_height="2dp" android:background="@color/black"
+			android:paddingLeft="5dp" android:paddingRight="5dp"
+			android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/general_info_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+
+		<!-- Seating information -->
+		<TextView android:id="@+id/seating_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/seating_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/seating_title_sep" android:layout_height="2dp"
+			android:background="@color/black" android:paddingLeft="5dp"
+			android:paddingRight="5dp" android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/seating_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+
+		<!-- Opening information -->
+		<TextView android:id="@+id/opening_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/opening_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/opening_title_sep" android:layout_height="2dp"
+			android:background="@color/black" android:paddingLeft="5dp"
+			android:paddingRight="5dp" android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/opening_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+
+		<!-- Stadium Restrictions information -->
+		<TextView android:id="@+id/restriction_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/restriction_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/restriction_title_sep" android:layout_height="2dp"
+			android:background="@color/black" android:paddingLeft="5dp"
+			android:paddingRight="5dp" android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/restriction_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+
+		<!-- Babies and Children information -->
+		<TextView android:id="@+id/babies_and_children_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/babies_and_children_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/babies_and_children_title_sep" android:layout_height="2dp"
+			android:background="@color/black" android:paddingLeft="5dp"
+			android:paddingRight="5dp" android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/babies_and_children_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+
+		<!-- Cash machines information -->
+		<TextView android:id="@+id/cash_machines_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/cash_machines_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/cash_machines_title_sep" android:layout_height="2dp"
+			android:background="@color/black" android:paddingLeft="5dp"
+			android:paddingRight="5dp" android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/cash_machine_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+			
+		<!-- Lost Property information -->
+		<TextView android:id="@+id/lost_property_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/lost_property_info_title" android:textColor="@color/black"
+			android:textSize="16dp" android:padding="5dp" android:textStyle="bold" />
+
+		<View android:id="@+id/lost_property_title_sep" android:layout_height="2dp"
+			android:background="@color/black" android:paddingLeft="5dp"
+			android:paddingRight="5dp" android:layout_width="wrap_content" />
+
+		<TextView android:id="@+id/lost_property_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/no_information_text" android:padding="5dp"
+			android:textColor="@color/black" />
+	</LinearLayout>
+</ScrollView>
